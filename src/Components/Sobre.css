@@ -1,0 +1,30 @@
+.contact_container{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    margin: 10px;
+    align-self: center;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: animationLeft .4s forwards;
+}
+.product_image2{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+    margin: 15px;
+    height: 400px;
+    width: 250px;
+    
+}
+
+@keyframes animationLeft {
+    to{
+        opacity: initial;
+        transform: initial;
+    }
+    
+}
